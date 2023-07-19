@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Memory Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div>
+            <audio controls autoplay loop
+            src="media/baby-shark-122769.mp3"></audio>
+        </div>
+        <div class="control-buttons">
+            <span>START GAME</span>
+
+        </div>
+
+        <h1>Test your Memory</h1>
+    
+    <div class="info-container">
+      <div class="name"> Player:<span></span> </div>
+      
+      <div class="timer">00:00</div>
+     <div class="tries"> Flipped: <span>0</span></div>  
+    </div>
+
+<!-- -------------------------memory games blocks----------------------------------->
+       <div class="memory-game-blocks">
+
+    <!--------BabyShark-------->
+        <div class="game-block" data-technology="babyshark"> 
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/babyShark.png">
+            </div>
+        </div>
+        <div class="game-block" data-technology="babyshark"> 
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/babyShark.png">
+            </div>
+        </div>
+    <!--------DaddyShark-------->
+        <div class="game-block" data-technology="daddyshark"> 
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/daddyShark.png">
+            </div>
+        </div>
+        <div class="game-block" data-technology="daddyshark"> 
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/daddyShark.png">
+            </div>
+        </div>
+     <!--------mommyShark-------->
+     <div class="game-block" data-technology="mommyshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/mommyShark.jfif">
+        </div>
+    </div>
+    <div class="game-block" data-technology="mommyshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/mommyShark.jfif">
+        </div>
+    </div>
+    <!--------grapaShark-------->
+    <div class="game-block" data-technology="grapashark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/grapaShark.jfif">
+        </div>
+    </div>
+    <div class="game-block" data-technology="grapashark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/grapaShark.jfif">
+        </div>
+    </div>
+
+    <!--------gramaShark-------->
+    <div class="game-block" data-technology="gramashark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/gramaShark.png">
+        </div>
+    </div>
+    <div class="game-block" data-technology="gramashark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/gramaShark.png">
+        </div>
+    </div>
+
+    <!--------broShark-------->
+    <div class="game-block" data-technology="babyshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/brotherShark.jfif">
+        </div>
+    </div>
+    <div class="game-block" data-technology="babyshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/brotherShark.jfif">
+        </div>
+    </div>
+
+    <!--------sisterShark-------->
+    <div class="game-block" data-technology="sistershark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/sisterShark.png">
+        </div>
+    </div>
+    <div class="game-block" data-technology="sistershark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/sisterShark.png">
+        </div>
+    </div>
+
+    <!-------littleshark--------->
+    <div class="game-block" data-technology="littleshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/littleShark.png">
+        </div>
+    </div>
+    <div class="game-block" data-technology="littleshark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/littleShark.png">
+        </div>
+    </div>
+
+    <!--------littlesisShark-------->
+    <div class="game-block" data-technology="littlesisShark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/littleSisShark.jfif">
+        </div>
+    </div>
+    <div class="game-block" data-technology="littlesisShark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/littleSisShark.jfif">
+        </div>
+    </div>
+
+    <!--------familyShark-------->
+    <div class="game-block" data-technology="familyShark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/familyShark.jfif">
+        </div>
+    </div>
+    <div class="game-block" data-technology="familyShark"> 
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="imgs/familyShark.jfif">
+        </div>
+    </div>
+
+    <div class="win-message" id="win-message">
+    Congratulations!<p>Refresh to play again!</p>
+    </div>
+    
+
+        <script src="app.js" async defer></script>
+    </body>
+
+
+</html>
